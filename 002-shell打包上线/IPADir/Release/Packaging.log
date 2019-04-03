@@ -1,0 +1,117 @@
+2019-04-02 12:51:14 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa78919a760; archive(resolved)='<IDEArchive: 0x7fa7892462c0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa78919a760; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa7891a59f0; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa78918b010; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7893b0a30; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7891ad8a0; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7891ae130; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7891b4270; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7891983f0; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa7893899e0; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='<IDEProvisioningBasicTeam: 0x7fa7893ba1c0; teamID='U5LAHK8PW6', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7fa789161880; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fa789164e80>', team='(null)'>
+	<IDEDistributionContext: 0x7fa789246b30; archive = '<IDEArchive: 0x7fa7892462c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa78919a760>
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2019-04-02 12:51:14 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/cooci/Desktop/VIP/单元测试持续化集成/持续集成自动打包/06--代码基础/002-shell打包上线/build/002-shell打包上线.xcarchive/Products/Applications/002-shell打包上线.app' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root/Payload/002-shell打包上线.app'
+2019-04-02 12:51:14 +0000  >>> Copying /Users/cooci/Desktop/VIP/单元测试持续化集成/持续集成自动打包/06--代码基础/002-shell打包上线/build/002-shell打包上线.xcarchive/Products/Applications/002-shell打包上线.app 
+2019-04-02 12:51:14 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-04-02 12:51:14 +0000  4559 bytes for ./_CodeSignature/CodeResources
+2019-04-02 12:51:14 +0000  copying file ./002-shell打包上线 ... 
+2019-04-02 12:51:14 +0000  1575440 bytes for ./002-shell打包上线
+2019-04-02 12:51:14 +0000  copying file ./AppIcon60x60@2x.png ... 
+3764 bytes for ./AppIcon60x60@2x.png
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Assets.car ... 
+2019-04-02 12:51:14 +0000  196280 bytes for ./Assets.car
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-04-02 12:51:14 +0000  4601 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./embedded.mobileprovision ... 
+2019-04-02 12:51:14 +0000  7592 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2019-04-02 12:51:14 +0000  1308 bytes for ./Info.plist
+2019-04-02 12:51:14 +0000  copying file ./PkgInfo ... 
+2019-04-02 12:51:14 +0000  8 bytes for ./PkgInfo
+2019-04-02 12:51:14 +0000 [MT] /usr/bin/ditto exited with 0
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2019-04-02 12:51:14 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root/Payload/002-shell打包上线.app/002-shell打包上线' '-verify_arch' 'arm64e'
+2019-04-02 12:51:14 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-04-02 12:51:14 +0000 [MT] Skipping architecture thinning for item "002-shell打包上线" because arch "arm64e" wasn't found
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionODRStep
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2019-04-02 12:51:14 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root/Payload/002-shell打包上线.app'
+2019-04-02 12:51:14 +0000 [MT] /usr/bin/xattr exited with 0
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2019-04-02 12:51:14 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fa7893ba760 'com.lgcoder.cooci.cn' '<DVTFilePath:0x7fa7892465d0:'/Users/cooci/Desktop/VIP/单元测试持续化集成/持续集成自动打包/06--代码基础/002-shell打包上线/build/002-shell打包上线.xcarchive/Products/Applications/002-shell打包上线.app'>'>: {
+    "application-identifier" = "U5LAHK8PW6.com.lgcoder.cooci.cn";
+    "com.apple.developer.team-identifier" = U5LAHK8PW6;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "U5LAHK8PW6.com.lgcoder.cooci.cn"
+    );
+}
+2019-04-02 12:51:14 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fa7893ba760 'com.lgcoder.cooci.cn' '<DVTFilePath:0x7fa7892465d0:'/Users/cooci/Desktop/VIP/单元测试持续化集成/持续集成自动打包/06--代码基础/002-shell打包上线/build/002-shell打包上线.xcarchive/Products/Applications/002-shell打包上线.app'>'> to: /var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/entitlementsLVHfKz
+2019-04-02 12:51:14 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '7D51F4874BB3AE82A4D3D4B2B00C2258973FEE4D' '--entitlements' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/entitlementsLVHfKz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root/Payload/002-shell打包上线.app'
+2019-04-02 12:51:14 +0000  /var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root/Payload/002-shell打包上线.app: signed app bundle with Mach-O thin (arm64) [com.lgcoder.cooci.cn]
+2019-04-02 12:51:14 +0000 [MT] /usr/bin/codesign exited with 0
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2019-04-02 12:51:14 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root' '/var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Packages/002-shell打包上线.ipa'
+2019-04-02 12:51:14 +0000  >>> Copying /var/folders/wj/bt9_8kk97578zzymsrlg2wn00000gn/T/XcodeDistPipeline.2ha/Root 
+2019-04-02 12:51:14 +0000  copying file ./Payload/002-shell打包上线.app/_CodeSignature/CodeResources ... 
+2019-04-02 12:51:14 +0000  4559 bytes for ./Payload/002-shell打包上线.app/_CodeSignature/CodeResources
+2019-04-02 12:51:14 +0000  copying file ./Payload/002-shell打包上线.app/002-shell打包上线 ... 
+2019-04-02 12:51:14 +0000  303984 bytes for ./Payload/002-shell打包上线.app/002-shell打包上线
+copying file ./Payload/002-shell打包上线.app/AppIcon60x60@2x.png ... 
+2019-04-02 12:51:14 +0000  3764 bytes for ./Payload/002-shell打包上线.app/AppIcon60x60@2x.png
+2019-04-02 12:51:14 +0000  copying file ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2019-04-02 12:51:14 +0000  916 bytes for ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2019-04-02 12:51:14 +0000  1136 bytes for ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-04-02 12:51:14 +0000  258 bytes for ./Payload/002-shell打包上线.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-04-02 12:51:14 +0000  1136 bytes for ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-04-02 12:51:14 +0000  832 bytes for ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/002-shell打包上线.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-04-02 12:51:14 +0000  copying file ./Payload/002-shell打包上线.app/Assets.car ... 
+2019-04-02 12:51:14 +0000  196280 bytes for ./Payload/002-shell打包上线.app/Assets.car
+copying file ./Payload/002-shell打包上线.app/AppIcon76x76@2x~ipad.png ... 
+2019-04-02 12:51:14 +0000  4601 bytes for ./Payload/002-shell打包上线.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/002-shell打包上线.app/embedded.mobileprovision ... 
+2019-04-02 12:51:14 +0000  8084 bytes for ./Payload/002-shell打包上线.app/embedded.mobileprovision
+2019-04-02 12:51:14 +0000  copying file ./Payload/002-shell打包上线.app/Info.plist ... 
+1308 bytes for ./Payload/002-shell打包上线.app/Info.plist
+copying file ./Payload/002-shell打包上线.app/PkgInfo ... 
+2019-04-02 12:51:14 +0000  8 bytes for ./Payload/002-shell打包上线.app/PkgInfo
+2019-04-02 12:51:14 +0000 [MT] /usr/bin/ditto exited with 0
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2019-04-02 12:51:14 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-04-02 12:51:14 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
